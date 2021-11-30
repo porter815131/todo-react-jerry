@@ -1,3 +1,29 @@
 .input {
-  width: 80vh;
+  margin: 2rem auto;
+  padding: 1rem;
+  width: 90%;
+  max-width: 50rem;
+}
+
+.input label {
+  text-align: center;
+  font-weight: 700;
+  margin: 0.5rem 0;
+  font-size: 2.5rem;
+  display: block;
+}
+
+.input input {
+  width: 100%;
+  font-size: 2rem;
+  padding: 1rem 2rem;
+  margin: 1rem 0;
+  display: block;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+.input input:focus {
+  outline: none;
+  border-color: #4f005f;
 }

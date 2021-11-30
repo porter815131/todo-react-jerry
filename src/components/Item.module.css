@@ -1,0 +1,22 @@
+.item {
+  display: flex;
+  justify-content: space-between;
+  margin: 2rem 0;
+  padding: 1rem;
+  border-bottom: 1px solid #000;
+}
+
+.item h3 {
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+
+.item p {
+  width: 100%;
+  font-size: 1.5rem;
+}
+
+.item button {
+  width: 7rem;
+  background-color: orangered;
+}
